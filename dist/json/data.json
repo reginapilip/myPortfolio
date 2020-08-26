@@ -1,0 +1,159 @@
+[
+    {
+        "projectName": "E-Card Generator",
+        "projectOverview": "Co-developed a <span class=\"bolded-text\">full-stack e-card generator app</span> that features a live editor, card sharing functionality, and user/login registration.",
+        "projectHighlights": [
+            "Developed a live editor using Web Storage API",
+            "Used AJAX and JSON to send and receive data from the database to save, build, and share cards",
+            "UX/UI Design & Branding",
+            "Responsive Design: mobile, tablet, and desktop friendly"
+        ],
+        "projectNotes": "<a href=\"https://www.allisonnicoledrake.com/\">Visit co-developer's (Allison Drake's) portfolio.</a> This app wouldn't be the same without her contributions. Though the full version of this app has not yet been released, you can get an idea of how to use the app by <a href=\"https://reginapilip.github.io/ecard-editor/\">playing with a demo of the live editor.</a>",
+        "projectTools": [
+            "HTML/CSS",
+            "JavaScript",
+            "PHP",
+            "Bootstrap",
+            "MySQL"
+        ],
+        "githubLink": "https://github.com/reginapilip/e-card-generator",
+        "demoLink": "https://reginapilip.github.io/ecard-editor/",
+        "figmaLink": "",
+        "projectImgLink": "img/projects/egreet.png"
+    },
+    {
+        "projectName": "News Feed Generator",
+        "projectOverview": "Developed a <span class=\"bolded-text\">news feed generator that consumes the New York Times API.</span>",
+        "projectHighlights": [
+            "Consumed the NYT REST API to populate top stories",
+            "UX/UI Design",
+            "Responsive Design: mobile, tablet, and desktop friendly"
+        ],
+        "projectNotes": null,
+        "projectTools": [
+            "HTML/CSS",
+            "JavaScript",
+            "NYT API"
+        ],
+        "githubLink": "https://github.com/reginapilip/nyt-app/",
+        "demoLink": "https://reginapilip.github.io/nyt-app/",
+        "figmaLink": "",
+        "projectImgLink": "img/projects/nyt.png"
+    },
+    {
+        "projectName": "WebDevAcademy Landing Page",
+        "projectOverview": "Developed a <span class=\"bolded-text\">landing page with a local API to populate current courses available</span> for the annual Clark College WebDevAcademy",
+        "projectHighlights": [
+            "Designed and developed the entire site from start to finish",
+            "Responsive Design: mobile, tablet, and desktop friendly",
+            "Created a local API for easy content management",
+            "UX/UI Design & Branding"
+        ],
+        "projectNotes": "I also <a href=\"https://github.com/reginapilip/getting-started-with-markdown\">created and taught a course on Markdown</a> as part of the Summer 2020 WebDevAcademy.",
+        "projectTools": [
+            "HTML/CSS",
+            "JavaScript",
+            "Figma"
+        ],
+        "githubLink": "https://github.com/belgort-clark/web-dev-academy-2020/tree/style-alternative",
+        "demoLink": "http://ctec.clark.edu/~belgort/web-dev-2020/Web%20Development%20Academy%20Summer%202020.html",
+        "figmaLink": "https://www.figma.com/file/658ra5eGKkGbsA5DHluGjP/webDevAcademySite?node-id=0%3A1",
+        "projectImgLink": "img/projects/webdevacademy.png"
+    },
+    {
+        "projectName": "Gallery Uploader",
+        "projectOverview": "An <span class=\"bolded-text\">image uploading app</span> that allows users to register and upload images to their personal account.",
+        "projectHighlights": [
+            "UX/UI Design & Branding",
+            "User registration management",
+            "Account security"
+        ],
+        "projectNotes": null,
+        "projectTools": [
+            "HTML/CSS",
+            "PHP",
+            "Bootstrap",
+            "JavaScript",
+            "MySQL"
+        ],
+        "githubLink": "https://github.com/reginapilip/upload-app",
+        "demoLink": null,
+        "figmaLink": null,
+        "projectImgLink": "img/projects/uploadregister.png"
+    },
+    {
+        "projectName": "Moses Lake Granite Website",
+        "projectOverview": "Consulted a client in building their business website.",
+        "projectHighlights": [
+            "Assisted client in <span class=\"bolded-text\">information architecture</span>",
+            "Revised and restructured content",
+            "Advised client in best web & design practices"
+        ],
+        "projectNotes": "Client built their site themselves on Wix - my responsibility was to consult the client.",
+        "projectTools": [
+            "Freelance/Client Work",
+            "Wix"
+        ],
+        "githubLink": null,
+        "demoLink": "https://www.moseslakegranitellc.com/",
+        "figmaLink": null,
+        "projectImgLink": "img/projects/moseslakegranite.png"
+    },
+    {
+        "projectName": "Balanced Planners Blog",
+        "projectOverview": "Developed a <span class=\"bolded-text\">five-page blogging website, using WordPress.</span>",
+        "projectHighlights": [
+            "Used plugins and page builders to customize a WordPress theme"
+        ],
+        "projectNotes": null,
+        "projectTools": [
+            "WordPress",
+            "Astra Theme"
+        ],
+        "githubLink": null,
+        "demoLink": "https://sp1916.clarkwp.com/",
+        "figmaLink": null,
+        "projectImgLink": "img/projects/balancedplanners.png"
+    },
+    {
+        "projectName": "Jules Marketing Campaign",
+        "projectOverview": "Worked on a team to <span class=\"bolded-text\">develop a marketing campaign for a failed Kickstarter product.</span> My responsibilities included:",
+        "projectHighlights": [
+            "Product Branding",
+            "Project Management",
+            "Co-developed marketing strategies to revamp failed product"
+        ],
+        "projectNotes": null,
+        "projectTools": [
+            "SEO/Social Media & Content Marketing",
+            "Branding & Design"
+        ],
+        "githubLink": null,
+        "demoLink": "https://docs.google.com/presentation/d/1zTqwDWdJZUWH8JremfZw0p7PBoOA-qhToOtbXUErvjU/edit?usp=sharing",
+        "figmaLink": "https://www.figma.com/file/SFBOe3xEJ8bytW9LOkF8UP/JULES-Website?node-id=0%3A1",
+        "projectImgLink": "img/projects/jules.png"
+    },
+    {
+        "projectName": "Cascade Home Solutions Website",
+        "projectOverview": "Currently <span class=\"bolded-text\">working with a team to design, brand, and develop a website for a local handyman business.</span>",
+        "projectHighlights": [
+            "Freelance/Client Work",
+            "Wireframing, prototyping, and web design & development",
+            "Developing a custom WordPress theme",
+            "SEO, Branding, Social Media and Content Marketing"
+        ],
+        "projectNotes": "This project is currently a work-in-progress.",
+        "projectTools": [
+            "WordPress",
+            "Figma",
+            "HTML/CSS",
+            "JavaScript",
+            "PHP",
+            "Freelance/Client Work"
+        ],
+        "githubLink": null,
+        "demoLink": null,
+        "figmaLink": null,
+        "projectImgLink": "img/projects/cascadehomesolutions.png"
+    }
+]

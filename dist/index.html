@@ -3,38 +3,248 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords"
+        content="Regina Pilipchuk, Regina Pilipchuk website, Regina Pilipchuk Portfolio, HTML, CSS, JavaScript, PHP, Web Developer in Vancouver WA, Web Developer in Portland OR">
+    <meta name="description"
+        content="Regina Pilipchuk is a Web Developer based in the Portland metropolitan area. Learn more about her skills and services.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Regina Pilipchuk</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <title>Regina Pilipchuk | Web Developer</title>
 </head>
 
-<body>
-    <div class="main-container">
-        <div class="logo-container">
-            <img id="myLogo" src="img/reginapilip-logo-tp.svg" alt="Regina's logo" height="100">
-        </div>
-        <div class="content">
-            <div class="content__img">
-                <img id="myPicture" src="img/regina.jpg" alt="A picture of Regina Pilipchuk">
+<body class="main-container">
+    <div class="mini-menu">
+        <a href="#" title="Return to top of page"><i class="fas fa-arrow-up"></i></a>
+        <a href="#about" title="Go to About section"><i class="far fa-address-card"></i></a>
+        <a href="#projects" title="Go to Projects section"><i class="fas fa-briefcase"></i></a>
+        <a href="#contact" title="Go to Contact section"><i class="far fa-envelope"></i></a>
+    </div>
+    <header>
+        <div class="header__nav">
+            <div class="nav__logo">
+                <img id="myLogo" src="img/reginapilip-logo-tp.svg" alt="Regina's logo">
             </div>
-            <div class="content-section">
-                <div class="content__text">
-                    <h1>Hi, I'm Regina --</h1>
-                    <p>Thanks for stopping by. This site is currently under construction. Please check in later!</p>
-                    <p class="bolded-text">In the meantime, take a look at my LinkedIn profile or check out my latest
-                        project.</p>
+            <ul class="nav__menu-container">
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#projects">Projects</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+                <li class="menu-item menu-item-resume"><a href="files/regina-pilipchuk-resume.pdf">Resume</a></li>
+            </ul>
+        </div>
+        <div class="header__hero">
+            <div class="hero__content-container">
+                <h1>Your data needs a story.</h1>
+                <p>My name is <span class="bolded-text">Regina Pilipchuk</span>, a full-stack web developer. Contact me
+                    to design an efficient and creative solution for your development needs.
+                </p>
+                <div class="hero__btns">
+                    <button class="btn"><a class="btn-link" href="#contact">Contact Me</a></button>
+                    <button class="btn"><a class="btn-link" href="files/regina-pilipchuk-resume.pdf">Resume</a></button>
                 </div>
-                <div class="content__btns">
-                    <button class="btn btn-1"><a class="btn-link"
-                            href="https://www.linkedin.com/in/regina-pilipchuk/">My
-                            Profile</a></button>
-                    <button class="btn"><a class="btn-link"
-                            href="http://ctec.clark.edu/~belgort/web-dev-2020/Web%20Development%20Academy%20Summer%202020.html">Latest
-                            Project</a></button>
+            </div>
+        </div>
+        <div class="header__arrow-down">
+            <a href="#about"><i class="fas fa-angle-double-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="sub-pages">
+        <div id="about" class="about">
+            <div class="content">
+                <div class="content__img">
+                    <img id="myPicture" src="img/regina.jpg" alt="A picture of Regina Pilipchuk">
+                </div>
+                <div class="content-section">
+                    <div class="content__text">
+                        <h2>Hi, I’m Regina —</h2>
+                        <p>A full-stack web developer passionate about front-end development and user experience. I
+                            strive
+                            to bridge the gap between people and data:</p>
+                        <p class="bolded-text">I don’t just build apps and websites — I create solutions, tools, and
+                            satisfying experiences.</p>
+                    </div>
+                    <div class="content__btns">
+                        <button class="btn btn-1 about-btn"><a class="btn-link" href="#projects">My
+                                Projects</a></button>
+                        <button class="btn btn-2 about-btn"><a class="btn-link"
+                                href="files/regina-pilipchuk-resume.pdf">Resume</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-container">
+                <div class="experience-header">
+                    <h2>Experience</h2>
+                </div>
+
+                <div class="experience__content">
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/regina-pilipchuk/"><i class="fab fa-linkedin"></i></a>
+                        <a href="files/regina-pilipchuk-resume.pdf"><i class="fas fa-file"></i></a>
+                    </div>
+
+                    <p>I bring you half a decade of experience in the administrative field where I learned to be <span
+                            class="bolded-text">methodical, organized, and a strong communicator.</span> As an
+                        administrative professional, I worked on teams to satisfy clients, increase workflow efficiency,
+                        and manage projects and events.</p>
+
+                    <p>The skills I have as an administrative professional now help me, a full-stack web developer,
+                        <span class="bolded-text">solve technical problems and develop unique web solutions, whether
+                            that's working as a freelancer for a client or on a development team to build or maintain
+                            applications.</span></p>
+
+                    <div class="skills-container">
+                        <div class="skills">
+                            <h3>Languages & Frameworks</h3>
+                            <ul class="skills__languages">
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>PHP</li>
+                                <li>MySQL/SQL</li>
+                                <li>Bootstrap</li>
+                                <li>Markdown</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Tools & Platforms</h3>
+                            <ul class="skills__tools">
+                                <li>Git/GitHub</li>
+                                <li>Figma</li>
+                                <li>WordPress</li>
+                                <li>phpMyAdmin</li>
+                                <li>Visual Studio Code</li>
+                                <li>Adobe CC</li>
+                                <li>Node & npm</li>
+                                <li>LAMP/WAMP Stack</li>
+                                <li>Slack</li>
+                            </ul>
+                        </div>
+
+                        <div class="skills">
+                            <h3>Current Interests</h3>
+                            <ul class="skills__current">
+                                <li>Vue.js</li>
+                                <li>UX/UI Design Principles</li>
+                                <li>WordPress Development</li>
+                                <li>SEO, Social Media, Branding & Content Marketing</li>
+                                <li>Entrepreneurship</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience__certs">
+                        <h2>Certifications</h2>
+                        <div class="certs-container">
+                            <div class="certs-section">
+                                <div class="certs-item">
+                                    <p class="bolded-text">MTA: Software Development Fundamentals</p>
+                                    <p>Credential ID: wyYeG-4Smb - December 2019</p>
+                                </div>
+
+                                <div class="certs-item">
+                                    <p class="bolded-text">MTA: Database Administration Fundamentals</p>
+                                    <p>Credential ID: wyNur-4Smo - December 2019</p>
+                                </div>
+                            </div>
+
+                            <div class="certs-section">
+                                <div class="certs-item">
+                                    <p class="bolded-text">MTA: Intro. to Programming Using HTML/CSS</p>
+                                    <p>Credential ID: wL3Mr-FauU - March 2020</p>
+                                </div>
+
+                                <div class="certs-item">
+                                    <p class="bolded-text">MTA: Intro. to Programming Using Python</p>
+                                    <p>Credential ID: mww7-uTYE - August 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="projects">
+            <h2 class="projects-header">Projects</h2>
+            <div id="projectsContainer">
+                <div class="projects__container">
+                    <!-- projects to be populated by JS -->
                 </div>
             </div>
         </div>
     </div>
+
+    <div id="contact" class="contact">
+        <div class="contact__text">
+            <h2>Let's Connect</h2>
+
+            <p>My <span class="bolded-text">passion</span> for beautiful and functional design drives me to create
+                stunning user interfaces. </p>
+
+            <p>My <span class="bolded-text">expertise</span> in organizing data enables me to build structured and
+                organized back-end systems.</p>
+
+            <p>My <span class="bolded-text">strength</span> lies in connecting the two: <span class="bolded-text">I
+                    strive to make data come to life by analyzing data, structuring it, and giving it an interface
+                    that
+                    makes it usable.</span></p>
+            <p>Fill out the form to get in touch, or you can email me at <a href="mailto:">regina@reginapilip.com</a> or
+                call <a href="tel:+3609840527">360.984.0527</a>.
+            </p>
+        </div>
+
+        <div class="contact__form">
+            <!-- <form target="_blank" class="contact-form" action="https://formsubmit.co/477288da8518a5e9af48aececf2f8b2f"
+                method="POST"> -->
+            <form target="_blank" class="contact-form" action="https://formspree.io/xeqrwygr" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input class="form__input-field" type="text" name="fullname" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form__input-field" type="text" name="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form__input-field" name="message" id="message" name="message" rows="10"
+                        required></textarea>
+                </div>
+
+                <!-- <input type="hidden" name="_autoresponse"
+                    value="Thank you for contacting me! I will get back to you within the next 2 business days.">
+
+                <input type="hidden" name="_template" value="box"> -->
+
+                <div class="form-group form-group-btn">
+                    <button class="btn" type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer__text">
+                <h2>Designed & Developed <br> by Regina Pilipchuk</h2>
+            </div>
+            <div class="footer__icons icons">
+                <a href="https://www.linkedin.com/in/regina-pilipchuk/"><i class="fab fa-linkedin"></i></a>
+                <a href="files/regina-pilipchuk-resume.pdf"><i class="fas fa-file"></i></a>
+                <a href="https://github.com/reginapilip"><i class="fab fa-github-square"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
