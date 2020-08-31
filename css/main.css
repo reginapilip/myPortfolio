@@ -232,21 +232,16 @@ header {
 }
 
 .content__img {
-    margin: -120px;
+    margin-top: -120px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .content {
-    /* grid-area: content; */
     background: var(--clr-off-white);
     margin: 8em 0 0 0;
     padding: 3em 2em 2em 2em;
-}
-
-.content__text {
-    margin-top: 140px;
 }
 
 .content__btns {
