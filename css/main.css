@@ -229,6 +229,7 @@ header {
 
 #myPicture {
     height: 200px;
+    box-shadow: 0 6px 6px 1px var(--clr-dusty-blue-tp);
 }
 
 .content__img {
